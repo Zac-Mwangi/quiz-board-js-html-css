@@ -1,5 +1,5 @@
-per = 0;
-present = " ";
+percentage = 0;
+remark = " ";
 
 function submitToJs() {
 
@@ -102,6 +102,14 @@ function submitToJs() {
         return false;
     }
 
-    var per = (marks / 5) * 100;
+    var percentage = (marks / 5) * 100;
+
+    if (per >= 80 && per <= 100) {
+        var present = "Exellently passes ";
+    } else if (per >= 50 && per < 80) {
+        var present = "Fairly passed ";
+    } else {
+        var present = "Retake the test ";
+    }
 
 }
