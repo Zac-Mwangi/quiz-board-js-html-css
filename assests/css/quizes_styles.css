@@ -23,8 +23,3 @@ body {
     align-items: center;
     padding-right: 2cm;
 }
-
-#sectB>.sectionBody>.rightside>.h1 {
-    color: aqua;
-    font-size: 50px;
-}

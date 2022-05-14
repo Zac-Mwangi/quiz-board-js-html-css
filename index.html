@@ -4,14 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assests/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Board</title>
+
+    <style>
+        @media screen and (min-width: 480px) {
+            #sectB {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <p>I love JavaScript</p>
-    <a href="./assests/pages/quiz.html"><button>NEXT</button></a>
 
+    <section id="sectB">
+        <div class="sectionBody">
+            <div class="leftside">
+                <img src="./assests/images/j1.png" alt="j1" width="70%">
+            </div>
+            <div class="rightside">
+                <h1 class="h1"> You think you good in JS?</h1>
+                <p>Press start to start the quizes!</p>
+                <a href="./assests/pages/quiz.html"><button>start</button></a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
