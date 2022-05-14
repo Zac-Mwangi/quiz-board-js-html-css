@@ -28,3 +28,11 @@ body {
     color: aqua;
     font-size: 50px;
 }
+
+#sectB>.sectionBody>.rightside>a>.start {
+    background-color: #ffffff;
+    color: #EC4067;
+    font-size: 25px;
+    padding: 16px;
+    border-color: #EC4067;
+}

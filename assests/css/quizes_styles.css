@@ -17,7 +17,8 @@ body {
     width: 50%;
 }
 
-#sectB>.sectionBody>.leftside {
+#sectB>.sectionBody>.leftside,
+.rightside {
     display: flex;
     justify-content: center;
     align-items: center;
