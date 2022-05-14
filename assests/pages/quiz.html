@@ -5,30 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizes</title>
-    <link rel="stylesheet" href="../css/quizes_styles.css">
+    <script type="text/javascript" src="../js/quiz_board.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
-    <div id="sectB" style="display: block;">
-        <div class="sectionBody">
-            <div class="leftside">
-                <img src="../images/j11.jpeg" alt="j1" width="50%">
-            </div>
-            <div class="rightside">
-                <form>
-                    <div class="question_container">
-                        <label>What is Html in full</label> <br>
-                        <input type="radio" id="t1" value="true" name="q1"><label> Hypertext Markup Language</label><br>
-                        <input type="radio" id="af1" value="false" name="q1"><label> Programming Language</label><br>
-                        <input type="radio" id="bf1" value="false" name="q1"><label> JavaScript</label><br>
-                        <input type="radio" id="cf1" value="false" name="q1"><label> Java</label><br><br>
-                        <button class="next" onclick="return next1()">NEXT</button>
-                    </div>
-                </form>
-            </div>
+    <form>
+        <div class="question_container" style="display: block;">
+            <label>What is Html in full</label> <br>
+            <input type="radio" id="t1" value="true" name="q1"><label> Hypertext Markup Language</label><br>
+            <input type="radio" id="af1" value="false" name="q1"><label> Programming Language</label><br>
+            <input type="radio" id="bf1" value="false" name="q1"><label> JavaScript</label><br>
+            <input type="radio" id="cf1" value="false" name="q1"><label> Java</label><br><br>
+            <button class="next" onclick="return next1()">NEXT</button>
         </div>
-    </div>
+
+        <div class="question_container" style="display: none;">
+            <label>Javascript is an ______ language?</label> <br>
+            <input type="radio" id="t2" value="true" name="q2"><label> Object-Oriented</label><br>
+            <input type="radio" id="af2" value="false" name="q2"><label> Object-Based</label><br>
+            <input type="radio" id="bf2" value="false" name="q2"><label> Procedural</label><br>
+            <input type="radio" id="cf2" value="false" name="q2"><label> None of the above</label><br><br>
+            <button class="next" onclick="return next2()">NEXT</button>
+        </div>
+
+        <div class="question_container" style="display: none;">
+            <label>Which of the following keywords is used to define a variable in Javascript?</label> <br>
+            <input type="radio" id="af3" value="false" name="q3"><label> Var</label><br>
+            <input type="radio" id="bf3" value="false" name="q3"><label> Let</label><br>
+            <input type="radio" id="t3" value="true" name="q3"><label> Both A and B</label><br>
+            <input type="radio" id="cf3" value="false" name="q3"><label> None of te above</label><br><br>
+            <button class="next" onclick="return next3()">NEXT</button>
+        </div>
+
+        <div class="question_container" style="display: none;">
+            <label>Which of the following methods is used to access HTML elements using Javascript?</label> <br>
+            <input type="radio" id="af4" value="false" name="q4"><label> getElementbyId()</label><br>
+            <input type="radio" id="bf4" value="false" name="q4"><label> getElementbyClassName()</label><br>
+            <input type="radio" id="t4" value="true" name="q4"><label> Both </label><br>
+            <input type="radio" id="cf4" value="false" name="q4"><label> None</label><br><br>
+            <button class="next" onclick="return next4()">NEXT</button>
+        </div>
+
+        <div class="question_container" style="display: none;">
+            <label>Upon encountering empty statements, what does the Javascript Interpreter do?</label> <br>
+            <input type="radio" id="af5" value="false" name="q5"><label> Throws an error</label><br>
+            <input type="radio" id="t5" value="true" name="q5"><label> Ignores the statement</label><br>
+            <input type="radio" id="bf5" value="false" name="q5"><label> Gives a warning</label><br>
+            <input type="radio" id="cf5" value="false" name="q5"><label> None of the above</label><br><br>
+        </div>
+
+        <input class="submitClass" type="submit" value="submit" onclick="return submitToJs()" style="display: none;">
+
+        <br>
+        <p id="p1"></p>
+        <p id="p2"></p>
+
     </form>
 </body>
 

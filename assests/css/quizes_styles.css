@@ -24,3 +24,7 @@ body {
     align-items: center;
     padding-right: 2cm;
 }
+
+#sectB>.sectionBody>.rightside {
+    display: flex;
+}
