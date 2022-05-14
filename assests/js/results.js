@@ -104,12 +104,22 @@ function submitToJs() {
 
     var percentage = (marks / 5) * 100;
 
-    if (per >= 80 && per <= 100) {
-        var present = "Exellently passes ";
-    } else if (per >= 50 && per < 80) {
-        var present = "Fairly passed ";
+
+    if (percentage >= 80 && percentage <= 100) {
+        var remark = "Exellently passes ";
+    } else if (percentage >= 50 && percentage < 80) {
+        var remark = "Fairly passed ";
     } else {
-        var present = "Retake the test ";
+        var remark = "Retake the test ";
     }
 
+
+    var p1_target = document.getElementById("p1");
+    var p2_target = document.getElementById("p2");
+
+    p1_target.innerHTML += "<p>You have scored : " + percentage + "</p>";
+    p2_target.innerHTML += " <p> Comment: " + remark + " </p>";
+
+    document.getElementsByClassName('submitClass')[0].style.display = "none";
+    return false;
 }
