@@ -106,7 +106,7 @@ function submitToJs() {
 
 
     if (percentage >= 80 && percentage <= 100) {
-        var remark = "Exellently passes. ";
+        var remark = "Excellently passes. ";
     } else if (percentage >= 50 && percentage < 80) {
         var remark = "Fairly passed. ";
     } else {

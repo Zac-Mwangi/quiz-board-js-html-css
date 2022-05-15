@@ -1,7 +1,5 @@
 # Name
-
     quiz-board-js-html-css
-
 # Description
 
 
@@ -23,6 +21,5 @@
 # Authors and acknowledgment
 
 # License
-
-
+[MIT](https://choosealicense.com/licenses/mit/)
 # Project status
