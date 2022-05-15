@@ -8,77 +8,108 @@
     <script type="text/javascript" src="../js/quiz_board.js"></script>
     <script type="text/javascript" src="../js/nextFucntion.js"></script>
     <script type="text/javascript" src="../js/results.js"></script>
+    <link rel="stylesheet" href="../css/quizes_styles.css">
+
+
     <title>Quizes</title>
 </head>
 
 <body>
     <form>
-        <div class="question_container" style="display: block;">
-            <label>What is Html in full</label> <br>
-            <input type="radio" id="t1" value="true" name="q1"><label> Hypertext Markup Language</label><br>
-            <input type="radio" id="af1" value="false" name="q1"><label> Programming Language</label><br>
-            <input type="radio" id="bf1" value="false" name="q1"><label> JavaScript</label><br>
-            <input type="radio" id="cf1" value="false" name="q1"><label> Java</label><br><br>
+        <div class="bigContainer" style="display: block;">
+            <div class="quizSection">
+                <div class="leftPic">
+                    <img src="../images/j13.jpeg" height="60%">
+                </div>
+                <div class="question_container">
+                    <label>1. What is Html in full</label> <br>
+                    <hr>
+                    <input type="radio" id="t1" value="true" name="q1"><label> Hypertext Markup Language</label><br>
+                    <input type="radio" id="af1" value="false" name="q1"><label> Programming Language</label><br>
+                    <input type="radio" id="bf1" value="false" name="q1"><label> JavaScript</label><br>
+                    <input type="radio" id="cf1" value="false" name="q1"><label> Java</label><br><br>
 
-            <div class="btns" style="display: flex; justify-content: space-around;">
-                <button class="next" onclick="return next1()">NEXT</button>
-                <button class="previous" onclick="return per1()">Previous</button>
+                    <button class="next" onclick="return next1()">NEXT</button>
+                </div>
             </div>
         </div>
 
-        <div class="question_container" style="display: none;">
-            <label>Javascript is an ______ language?</label> <br>
-            <input type="radio" id="t2" value="true" name="q2"><label> Object-Oriented</label><br>
-            <input type="radio" id="af2" value="false" name="q2"><label> Object-Based</label><br>
-            <input type="radio" id="bf2" value="false" name="q2"><label> Procedural</label><br>
-            <input type="radio" id="cf2" value="false" name="q2"><label> None of the above</label><br><br>
+        <div class="bigContainer">
+            <div class="quizSection">
+                <div class="leftPic">
+                    <img src="../images/j4.jpeg">
+                </div>
+                <div class="question_container">
+                    <label>2. Javascript is an ______ language?</label> <br>
+                    <hr>
+                    <input type="radio" id="t2" value="true" name="q2"><label> Object-Oriented</label><br>
+                    <input type="radio" id="af2" value="false" name="q2"><label> Object-Based</label><br>
+                    <input type="radio" id="bf2" value="false" name="q2"><label> Procedural</label><br>
+                    <input type="radio" id="cf2" value="false" name="q2"><label> None of the above</label><br><br>
 
-            <div class="btns" style="display: flex; justify-content: space-around;">
-                <button class="next" onclick="return next2()">NEXT</button>
-                <button class="previous" onclick="return per2()">Previous</button>
+                    <button class="next" onclick="return next2()">NEXT</button>
+                </div>
             </div>
         </div>
 
-        <div class="question_container" style="display: none;">
-            <label>Which of the following keywords is used to define a variable in Javascript?</label> <br>
-            <input type="radio" id="af3" value="false" name="q3"><label> Var</label><br>
-            <input type="radio" id="bf3" value="false" name="q3"><label> Let</label><br>
-            <input type="radio" id="t3" value="true" name="q3"><label> Both A and B</label><br>
-            <input type="radio" id="cf3" value="false" name="q3"><label> None of te above</label><br><br>
+        <div class="bigContainer">
+            <div class="quizSection">
+                <div class="leftPic">
+                    <img src="../images/j2.jpeg">
+                </div>
+                <div class="question_container">
+                    <label>3. Which of the following keywords is used to define a variable in Javascript?</label> <br>
+                    <hr>
+                    <input type="radio" id="af3" value="false" name="q3"><label> Var</label><br>
+                    <input type="radio" id="bf3" value="false" name="q3"><label> Let</label><br>
+                    <input type="radio" id="t3" value="true" name="q3"><label> Both A and B</label><br>
+                    <input type="radio" id="cf3" value="false" name="q3"><label> None of te above</label><br><br>
 
-            <div class="btns" style="display: flex; justify-content: space-around;">
-                <button class="next" onclick="return next3()">NEXT</button>
-                <button class="previous" onclick="return per3()">Previous</button>
+                    <button class="next" onclick="return next3()">NEXT</button>
+                </div>
             </div>
         </div>
 
-        <div class="question_container" style="display: none;">
-            <label>Which of the following methods is used to access HTML elements using Javascript?</label> <br>
-            <input type="radio" id="af4" value="false" name="q4"><label> getElementbyId()</label><br>
-            <input type="radio" id="bf4" value="false" name="q4"><label> getElementbyClassName()</label><br>
-            <input type="radio" id="t4" value="true" name="q4"><label> Both </label><br>
-            <input type="radio" id="cf4" value="false" name="q4"><label> None</label><br><br>
+        <div class="bigContainer">
+            <div class="quizSection">
+                <div class="leftPic">
+                    <img src="../images/j7.png">
+                </div>
+                <div class="question_container">
+                    <label>4. Which of the following methods is used to access HTML elements using Javascript?</label> <br>
+                    <hr>
+                    <input type="radio" id="af4" value="false" name="q4"><label> getElementbyId()</label><br>
+                    <input type="radio" id="bf4" value="false" name="q4"><label> getElementbyClassName()</label><br>
+                    <input type="radio" id="t4" value="true" name="q4"><label> Both </label><br>
+                    <input type="radio" id="cf4" value="false" name="q4"><label> None</label><br><br>
 
-
-            <div class="btns" style="display: flex; justify-content: space-around;">
-                <button class="next" onclick="return next5()">NEXT</button>
-                <button class="previous" onclick="return per5()">Previous</button>
+                    <button class="next" onclick="return next4()">NEXT</button>
+                </div>
             </div>
         </div>
 
-        <div class="question_container" style="display: none;">
-            <label>Upon encountering empty statements, what does the Javascript Interpreter do?</label> <br>
-            <input type="radio" id="af5" value="false" name="q5"><label> Throws an error</label><br>
-            <input type="radio" id="t5" value="true" name="q5"><label> Ignores the statement</label><br>
-            <input type="radio" id="bf5" value="false" name="q5"><label> Gives a warning</label><br>
-            <input type="radio" id="cf5" value="false" name="q5"><label> None of the above</label><br><br>
+        <div class="bigContainer">
+            <div class="quizSection">
+                <div class="leftPic">
+                    <img src="../images/j6.jpeg">
+                </div>
+                <div class="question_container">
+                    <label>5. Upon encountering empty statements, what does the Javascript Interpreter do?</label> <br>
+                    <hr>
+                    <input type="radio" id="af5" value="false" name="q5"><label> Throws an error</label><br>
+                    <input type="radio" id="t5" value="true" name="q5"><label> Ignores the statement</label><br>
+                    <input type="radio" id="bf5" value="false" name="q5"><label> Gives a warning</label><br>
+                    <input type="radio" id="cf5" value="false" name="q5"><label> None of the above</label><br><br>
+
+                    <input class="submitClass" type="submit" value="submit" onclick="return submitToJs()" style="display: block;">
+
+                    <br>
+                    <p id="p1"></p>
+                    <p id="p2"></p>
+
+                </div>
+            </div>
         </div>
-
-        <input class="submitClass" type="submit" value="submit" onclick="return submitToJs()" style="display: none;">
-
-        <br>
-        <p id="p1"></p>
-        <p id="p2"></p>
 
     </form>
 </body>

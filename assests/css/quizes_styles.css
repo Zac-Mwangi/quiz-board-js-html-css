@@ -1,6 +1,7 @@
 body {
     margin: 2cm;
     padding: 0;
+    font-family: 'Courier New', monospace;
 }
 
 #sectB {
@@ -26,5 +27,24 @@ body {
 }
 
 #sectB>.sectionBody>.rightside {
+    /* display: flex; */
+}
+
+.quizSection {
     display: flex;
+}
+
+.quizSection>.leftPic,
+.question_container {
+    width: 50%;
+}
+
+.bigContainer {
+    display: none;
+}
+
+.rd {
+    display: list-item;
+    list-style: lower-alpha inside;
+    clear: left;
 }

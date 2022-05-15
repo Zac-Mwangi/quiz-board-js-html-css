@@ -1,6 +1,8 @@
 body {
     margin: 2cm;
     padding: 0;
+    background-color: #D3D3D3;
+    font-family: 'Courier New', monospace;
 }
 
 #sectB {
@@ -25,7 +27,12 @@ body {
 }
 
 #sectB>.sectionBody>.rightside>.h1 {
-    color: aqua;
+    color: #000;
+    font-size: 50px;
+}
+
+#sectB>.sectionBody>.rightside>P {
+    color: rgb(119, 9, 9);
     font-size: 50px;
 }
 
