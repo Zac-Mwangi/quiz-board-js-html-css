@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="../js/quiz_board.js"></script>
     <script type="text/javascript" src="../js/nextFucntion.js"></script>
+    <script type="text/javascript" src="../js/previousFucntion.js"></script>
     <script type="text/javascript" src="../js/results.js"></script>
     <link rel="stylesheet" href="../css/quizes_styles.css">
 
@@ -29,7 +30,10 @@
                     <input type="radio" id="bf1" value="false" name="q1"><label> JavaScript</label><br>
                     <input type="radio" id="cf1" value="false" name="q1"><label> Java</label><br><br>
 
-                    <button class="next" onclick="return next1()">NEXT</button>
+                    <div class="btnNextPrevious">
+                        <button class="previous" onclick="return previous1()">PREVIOUS</button>
+                        <button class="next" onclick="return next1()">NEXT</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,7 +51,10 @@
                     <input type="radio" id="bf2" value="false" name="q2"><label> Procedural</label><br>
                     <input type="radio" id="cf2" value="false" name="q2"><label> None of the above</label><br><br>
 
-                    <button class="next" onclick="return next2()">NEXT</button>
+                    <div class="btnNextPrevious">
+                        <button class="previous" onclick="return previous2()">PREVIOUS</button>
+                        <button class="next" onclick="return next2()">NEXT</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,7 +72,10 @@
                     <input type="radio" id="t3" value="true" name="q3"><label> Both A and B</label><br>
                     <input type="radio" id="cf3" value="false" name="q3"><label> None of te above</label><br><br>
 
-                    <button class="next" onclick="return next3()">NEXT</button>
+                    <div class="btnNextPrevious">
+                        <button class="previous" onclick="return previous3()">PREVIOUS</button>
+                        <button class="next" onclick="return next3()">NEXT</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +93,10 @@
                     <input type="radio" id="t4" value="true" name="q4"><label> Both </label><br>
                     <input type="radio" id="cf4" value="false" name="q4"><label> None</label><br><br>
 
-                    <button class="next" onclick="return next4()">NEXT</button>
+                    <div class="btnNextPrevious">
+                        <button class="previous" onclick="return previous4()">PREVIOUS</button>
+                        <button class="next" onclick="return next4()">NEXT</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,14 +114,22 @@
                     <input type="radio" id="bf5" value="false" name="q5"><label> Gives a warning</label><br>
                     <input type="radio" id="cf5" value="false" name="q5"><label> None of the above</label><br><br>
 
-                    <input class="submitClass" type="submit" value="submit" onclick="return submitToJs()" style="display: block;">
+                    <div class="btnNextPrevious">
+                        <button class="previous" onclick="return previous5()">PREVIOUS</button>
+                        <input class="next" type="submit" value="submit" onclick="return submitToJs()" style="display: block;">
+                    </div>
 
-                    <br>
+                    <!-- <br>
                     <p id="p1"></p>
-                    <p id="p2"></p>
-
+                    <p id="p2"></p> -->
                 </div>
             </div>
+        </div>
+
+        <br>
+        <div class="results_display">
+            <p id="p1"></p>
+            <p id="p2"></p>
         </div>
 
     </form>
