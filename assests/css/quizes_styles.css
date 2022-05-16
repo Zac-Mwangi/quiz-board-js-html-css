@@ -98,3 +98,17 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1250px) {
+    .quizSection {
+        flex-direction: column;
+    }
+    /* #sectB>.sectionBody>.leftside,
+    .rightside {
+        width: 100%
+    } */
+    .q {
+        font-size: 20px;
+        color: #000;
+    }
+}

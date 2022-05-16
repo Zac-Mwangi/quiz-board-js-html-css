@@ -48,3 +48,13 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1250px) {
+    #sectB>.sectionBody {
+        flex-direction: column;
+    }
+    #sectB>.sectionBody>.leftside,
+    .rightside {
+        width: 100%
+    }
+}
