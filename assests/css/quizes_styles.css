@@ -111,4 +111,8 @@ body {
         font-size: 20px;
         color: #000;
     }
+    .quizSection>.leftPic,
+    .question_container {
+        width: 100%;
+    }
 }
