@@ -6,12 +6,12 @@
 
 # Visuals
 
-    SCreenshots for the site are attached in the screenshot folder contained in ./assets/images/screenshot
+    Screenshots for the site are attached in the screenshot folder contained in ./assets/images/screenshot
 <!-- ![result_image]("./assets/images/result.png") -->
 
 # Installation
 
-    all the files are found in the github reository below. ANd can run in any browser
+    All the files are found in the github reository below. ANd can run in any browser
 
 # GitHub Code
 
