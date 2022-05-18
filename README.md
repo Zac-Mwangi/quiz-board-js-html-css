@@ -4,6 +4,9 @@
     
     quiz-board-js-html-css is a project that provides the user with questions and latter the grade at the nd . It basically uses HTNL , JS , And CSS.
 
+# Visuals
+
+![result_image](src="./assets/images/result.png")
 
 # Installation
 
