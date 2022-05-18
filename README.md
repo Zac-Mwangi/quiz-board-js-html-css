@@ -6,7 +6,8 @@
 
 # Visuals
 
-![result_image](src="./assets/images/result.png")
+    SCreenshots for the site are attached in the screenshot folder contained in ./assets/images/screenshot
+<!-- ![result_image]("./assets/images/result.png") -->
 
 # Installation
 
